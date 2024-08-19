@@ -10,7 +10,7 @@ export class Bullet {
 
   update() {
     this.y += this.speed;
-    if (this.y < 0 || this.y > 600) {
+    if (this.y < 0 || this.y > 1000) {
       this.markedForDeletion = true;
     }
   }
